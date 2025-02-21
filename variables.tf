@@ -1,5 +1,5 @@
 # Define config variables
-variable "label_Prefix" {
+variable "label_prefix" {
   type        = string
   description = "Your college username. This will form the beginning of various resource names."
 }
