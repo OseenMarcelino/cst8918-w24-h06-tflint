@@ -7,6 +7,7 @@ variable "label_Prefix" {
 variable "region" {
   type    = string
   default = "westus3"
+  description = "The region of the resource group"
 }
 
 variable "admin_username" {
